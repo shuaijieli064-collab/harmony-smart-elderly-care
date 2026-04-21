@@ -27,9 +27,9 @@
     "type": "entry",
     "description": "$string:module_description",
     "mainPage": "pages/Index/Index",
-    "sourceDir": "src/main/ts",
+    "sourceDir": "entry/src",
     "pages": {
-      "dir": "pages"
+      "dir": "entry/src/pages"
     },
     "launchType": "singleton",
     "designWidth": 720,
