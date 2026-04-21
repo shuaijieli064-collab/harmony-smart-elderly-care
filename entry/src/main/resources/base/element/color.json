@@ -1,0 +1,36 @@
+{
+  "color": [
+    {
+      "name": "primary",
+      "value": "#1890FF"
+    },
+    {
+      "name": "success",
+      "value": "#52C41A"
+    },
+    {
+      "name": "warning",
+      "value": "#FAAD14"
+    },
+    {
+      "name": "error",
+      "value": "#FF4D4F"
+    },
+    {
+      "name": "background",
+      "value": "#F5F5F5"
+    },
+    {
+      "name": "text_primary",
+      "value": "#333333"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#666666"
+    },
+    {
+      "name": "text_hint",
+      "value": "#999999"
+    }
+  ]
+}

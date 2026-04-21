@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_description",
+      "value": "社区智慧医养监护系统"
+    },
+    {
+      "name": "module_description",
+      "value": "基于鸿蒙分布式架构的社区智慧医养监护系统"
+    },
+    {
+      "name": "target_label",
+      "value": "智慧医养"
+    }
+  ]
+}

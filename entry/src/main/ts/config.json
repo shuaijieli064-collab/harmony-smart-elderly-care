@@ -1,0 +1,43 @@
+{
+  "app": {
+    "bundleName": "com.smartelderly.care",
+    "vendor": "smartelderly",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "apiVersion": 10,
+    "isBundle": true,
+    "description": "$string:app_description"
+  },
+  "deviceConfig": {
+    "default": {
+      "network": {
+        "usesCleartext": true,
+        "securityConfig": {
+          "domainSettings": {
+            "cleartextPermissions": []
+          }
+        }
+      }
+    }
+  },
+  "module": {
+    "name": "harmony_smart_elderly_care",
+    "type": "entry",
+    "description": "$string:module_description",
+    "mainPage": "pages/Index/Index",
+    "sourceDir": "src/main/ts",
+    "pages": {
+      "dir": "pages"
+    },
+    "launchType": "singleton",
+    "designWidth": 720,
+    "targets": [
+      {
+        "name": "default",
+        "label": "$string:target_label"
+      }
+    ]
+  }
+}

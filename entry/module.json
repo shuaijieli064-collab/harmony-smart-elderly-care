@@ -1,0 +1,27 @@
+{
+  "module": {
+    "name": "harmony_smart_elderly_care",
+    "type": "entry",
+    "description": "社区智慧医养监护系统",
+    "mainPage": "pages/Index/Index",
+    "pages": [
+      "pages/Index/Index",
+      "pages/Health/Health",
+      "pages/Reminder/Reminder",
+      "pages/Alert/Alert",
+      "pages/FamilyCare/FamilyCare",
+      "pages/Settings/Settings"
+    ],
+    "features": [],
+    "permissions": [
+      "ohos.permission.INTERNET",
+      "ohos.permission.DISTRIBUTED_DATASYNC"
+    ],
+    "metadata": [
+      {
+        "name": "distribution_system_version",
+        "value": "4.0.0"
+      }
+    ]
+  }
+}
