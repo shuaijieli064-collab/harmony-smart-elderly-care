@@ -7,37 +7,36 @@
       "name": "1.0.0"
     },
     "apiVersion": 10,
-    "isBundle": true,
-    "description": "$string:app_description"
-  },
-  "deviceConfig": {
-    "default": {
-      "network": {
-        "usesCleartext": true,
-        "securityConfig": {
-          "domainSettings": {
-            "cleartextPermissions": []
-          }
-        }
-      }
-    }
+    "isBundle": true
   },
   "module": {
     "name": "harmony_smart_elderly_care",
     "type": "entry",
-    "description": "$string:module_description",
-    "mainPage": "pages/Index/Index",
+    "description": "社区智慧医养监护系统",
+    "mainPage": "entry/src/main/ts/pages/Index/Index",
     "sourceDir": "entry/src",
     "pages": {
-      "dir": "entry/src/pages"
+      "dir": "entry/src/main/ts/pages"
     },
-    "launchType": "singleton",
-    "designWidth": 720,
-    "targets": [
+    "js": [
       {
+        "pages": [
+          "entry/src/main/ts/pages/Index/Index",
+          "entry/src/main/ts/pages/Health/Health",
+          "entry/src/main/ts/pages/Reminder/Reminder",
+          "entry/src/main/ts/pages/Alert/Alert",
+          "entry/src/main/ts/pages/FamilyCare/FamilyCare",
+          "entry/src/main/ts/pages/Settings/Settings"
+        ],
         "name": "default",
-        "label": "$string:target_label"
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": false
+        }
       }
+    ],
+    "permissions": [
+      "ohos.permission.INTERNET"
     ]
   }
 }
