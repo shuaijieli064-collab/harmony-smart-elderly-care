@@ -1,0 +1,30 @@
+[
+  {
+    "forms": [
+      {
+        "id": 1,
+        "name": "health_card",
+        "description": "健康数据概览卡片",
+        "primaryColor": "#1890FF",
+        "scheduling": "0 0 * * ? *",
+        "size": {
+          "width": 2,
+          "height": 2
+        },
+        "src": "form/HealthCard/HealthCard"
+      },
+      {
+        "id": 2,
+        "name": "health_summary",
+        "description": "健康状态摘要卡片",
+        "primaryColor": "#52C41A",
+        "scheduling": "0 0 * * ? *",
+        "size": {
+          "width": 2,
+          "height": 1
+        },
+        "src": "form/HealthSummary/HealthSummary"
+      }
+    ]
+  }
+]

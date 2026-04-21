@@ -13,6 +13,20 @@
       "pages/Settings/Settings"
     ],
     "features": [],
+    "js": [
+      {
+        "pages": [
+          "form/HealthCard/HealthCard",
+          "form/HealthSummary/HealthSummary"
+        ],
+        "name": "default",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": false
+        },
+        "mode": "form"
+      }
+    ],
     "permissions": [
       "ohos.permission.INTERNET",
       "ohos.permission.DISTRIBUTED_DATASYNC"
